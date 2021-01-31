@@ -145,8 +145,8 @@ color:#27153E;
     .workGrid {
    position: static;
    margin: 20px;
-   grid-template-rows: 300px 300px 300px 300px 300px;
-   grid-template-columns: 1fr;
+   grid-template-columns: 300px 300px 300px 300px 300px;
+   grid-template-rows: 1fr;
    grid-template-areas:
    "item-a"
    "item-b"
