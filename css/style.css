@@ -1,149 +1,95 @@
-.inline_block {
+body {
+    margin: 0;
+  }
+  header {
+    background-color: #ffffff;
+    padding: 15px;
+  }
+  header ul {
+    float: right;
+    color: #27153E;
+  }
+  header li {
+    display: inline-block;
+    padding: 0px 5px;
+    font-family: Avenir Next;
+    font-weight: 600;
+  }
+  header p {
     display: inline-block;
     vertical-align: top;
-padding: 40px
-}
-
-.navigation {
-    background: white;
-}
+    font-family: Avenir Next;
+    color: #27153E;
+    font-weight: 600;
+  }
+  .heroImg {
+    background-color:#DDDCFD;
+    padding: 100px 15px;
+  }
+  .content {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #FFFFFF;
+    text-align: center;
+    font-family: Avenir Next;
+    color: #27153E;
+  }
+  button {
+    padding: 15px;
+    background-color: #27153E;
+    color :#DDDCFD;
+    font-size: 15px;
+    border-radius: 4px;
+    font-family: Avenir Next;
+  }
 
 h2 {
-    padding: 1%;
-    position: absolute;
-    width: 200px;
-    height: 22px;
-    left: 165px;
-    top: 17px;
+    text-align: center;
+    font-family: Avenir Next;
+    color: #27153E;
+}
 
+  .flexContainer {
+display: flex;
+padding: 40px;
 font-family: Avenir Next;
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 22px;
-/* identical to box height */
-
-font-variant: small-caps;
-
-color: #27153E;
-}
-
-.logo {
-text-align: center;
-    padding: 1%;
-    position: absolute;
-    width: 65px;
-    height: 39.12px;
-    left: 87px;
-    top: 18.63px;
-    
-
-}
-
-.initialScale {
-    width: 73%;
-padding: 1%;
-}
-ol {
-    width: 50%;
-    margin-left: auto;
-    display: inline;
-    position: absolute;
-    left: 850px;
-    top: 30px;
-font-family: Avenir Next;
-font-style: normal;
-    
-    
-    
-}
-
-.herolmg {
-    height: 590px;
-    padding: 70px;
-    background: #DDDCFD;
-    }
-
-h1 {
-    position: sticky;
-width: 214px;
-height: 34px;
-left: 588px;
-top: 316px;
-
-font-family: Avenir Next;
-font-style: normal;
-font-weight: 600;
-font-size: 25px;
-line-height: 34px;
-
-color: #5452F6;
-
-}
-
-p {
-    position: sticky;
-width: 297px;
-height: 158px;
-left: 546px;
-top: 370px;
-
-font-family: Open Sans;
-font-style: normal;
-font-weight: normal;
+color:#27153E;
 font-size: 14px;
-line-height: 19px;
-text-align: center;
-
-color: #27153E;
+  }
+.cardone {
+    width: 33%;
+    text-align: center;
+    padding: 15px;
 }
 
-button { 
-    position: sticky;
-width: 150px;
-height: 45px;
-left: 617px;
-top: 573px;
-color: #ffffff;
-font-family: Open Sans;
-background: #27153E;
-}
-.content {
-    position: sticky;
-    width: 417px;
-    height: 500px;
-    left: 400px;
-    top: 300px;
-    margin: auto;
-    padding: 60px 57px 52px 63px;
-    background-color: #ffffff;
-    text-align:center;
-}
-
-.pic {
-position: sticky;
-width: 76.91px;
-height: 80px;
-left: 653px;
-top: 210px;
-}
-
-footer {
-    background-color:#27153E ;
-    padding: 55px;
+.cardtwo {
+    width: 33%;
+    text-align: center;
+    padding: 15px;
   
 }
-ul {
-    display: inline-block;
-    vertical-align: top;
-    color:#ffffff;
-    
-}
-li {
-  display: inline;
-  float:center;
-padding: 30px;
-font-family: Avenir Next;
-font-style: normal;
 
+.cardthree {
+    width: 33%;
+    text-align: center;
+    padding: 15px;
 }
+  footer {
+    background-color:#27153E;
+    padding: 5px;
+    color: white;
+  }
+  footer ul {
+    list-style: none;
+    padding-left: 5px;
+    
+  }
+  footer li {
+    display: inline-block;
+    padding: 0px 7px;
+    font-family: Avenir Next;
+    color:#DDDCFD;
+  }
+  
+
