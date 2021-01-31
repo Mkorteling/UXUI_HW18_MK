@@ -80,17 +80,16 @@ font-size: 14px;
     display: grid;
     background-color:#EDEDFF;
     grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto;
+    grid-template-rows: 1fr;
     grid-template-areas: 
-    " item-a item-a item-a item-a item-a"
-    "item-b item-b item-b item-b item-b"
-    "item-c item-c item-c item-c item-c"
-    "h2 h2 h2 h2 h2";
+    " item-a item-a item-a item-a"
+    "item-b item-b item-b item-b"
+    "item-c item-c item-c item-c"
+    ;
     padding: 70px;
 }
 
 .item-a {
-
 padding: 20px;
 font-family: Avenir Next;
 color:#27153E;
@@ -130,12 +129,29 @@ color:#27153E;
 
 @media only screen and (max-width:600) {
     .flexContainer{
+        display: flex;
         flex-direction: column;
-        width: 100%;
       }   
+      .cardone {
+          width: 100%;
+      }
+      .cardtwo {
+        width: 100%;
+    }
+    .cardthree {
+        width: 100%;
+    }
 
     .workGrid {
-   display: grid;
+   position: static;
+   margin: 20px;
+   grid-template-rows: 300px 300px 300px 300px 300px;
+   grid-template-columns: 1fr;
+   grid-template-areas:
+   "item-a"
+   "item-b"
+   "item-c"
+   ;
     }
    
 }
